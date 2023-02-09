@@ -4,5 +4,6 @@ Selection of custom Prop Types to be used with React components and the [Prop Ty
 
 ## Type checks available
 
-* `emailAddress`: Checks a string against an email address pattern
-* `positiveNumber` Checks value is a number greater than zero
+* `emailAddress`: Value matches email address pattern
+* `guid`: Value is hyphenated string in the format `8chars-4chars-4chars-4chars-12chars`
+* `positiveNumber` Value is a number greater than zero
