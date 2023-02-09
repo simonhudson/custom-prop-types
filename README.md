@@ -2,6 +2,8 @@
 
 Selection of custom Prop Types to be used with React components and the [Prop Types](https://www.npmjs.com/package/prop-types) library
 
+[![Node.js CI](https://github.com/simonhudson/custom-prop-types/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/simonhudson/custom-prop-types/actions/workflows/node.js.yml)
+
 ## Usage
 
 ```js
