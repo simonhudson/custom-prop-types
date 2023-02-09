@@ -1,0 +1,26 @@
+{
+  "name": "custom-prop-types",
+  "version": "0.0.1",
+  "description": "Custom Prop Types",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonhudson/custom-prop-types.git"
+  },
+  "author": "Simon Hudson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simonhudson/custom-prop-types/issues"
+  },
+  "homepage": "https://github.com/simonhudson/custom-prop-types#readme",
+  "devDependencies": {
+    "babel-jest": "^29.4.2",
+    "babel-plugin-root-import": "^6.6.0",
+    "eslint": "^8.33.0",
+    "jest": "^29.4.2",
+    "lodash": "^4.17.21"
+  }
+}
