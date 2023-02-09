@@ -24,7 +24,7 @@
     "jest": "^29.4.2",
     "lodash": "^4.17.21"
   },
-  "husky": {
+  "Husky": {
     "hooks": {
       "pre-push": "npm test"
     }
