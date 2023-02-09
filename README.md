@@ -14,7 +14,7 @@ import CustomPropTypes from 'custom-prop-types';
 Value matches email address pattern
 ```js
 MyComponent.PropTypes = {
-    userEmail: CustomPropTypes.emailAddress({ isRequired: <bool> })
+    someProp: CustomPropTypes.emailAddress({ isRequired: <bool> })
 }
 ```
 
@@ -22,7 +22,7 @@ MyComponent.PropTypes = {
 Value is hyphenated string in the format `8chars-4chars-4chars-4chars-12chars`
 ```js
 MyComponent.PropTypes = {
-    userEmail: CustomPropTypes.guid({ isRequired: <bool> })
+    someProp: CustomPropTypes.guid({ isRequired: <bool> })
 }
 ```
 
@@ -30,6 +30,6 @@ MyComponent.PropTypes = {
 Value is a number greater than zero
 ```js
 MyComponent.PropTypes = {
-    userEmail: CustomPropTypes.positiveNumber({ isRequired: <bool> })
+    someProp: CustomPropTypes.positiveNumber({ isRequired: <bool> })
 }
 ```
